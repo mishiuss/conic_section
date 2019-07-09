@@ -1,0 +1,21 @@
+Parameters of model:
+'classifier':'RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=3, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=1000,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)', 
+'classifier__max_features':'3', 
+'classifier__n_estimators':'1000', 
+Detailed classification report:
+The scores are computed on the full test set:
+              precision    recall  f1-score   support
+
+     Ellipse       0.99      0.97      0.98       174
+   Hyperbola       0.98      0.99      0.99       321
+    Parabola       1.00      1.00      1.00         5
+
+    accuracy                           0.99       500
+   macro avg       0.99      0.99      0.99       500
+weighted avg       0.99      0.99      0.99       500
